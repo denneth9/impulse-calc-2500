@@ -309,7 +309,6 @@ namespace impulse_calc_2500
                 timeincrement = (double)Int32.Parse(nss) / 1000; //i feel the string to int could be combined into the above line
                 double totaltime = 0;
                 int errors = 0; //keep track of how many lines were skipped
-                data.Add("    0 0"); //start with zero
                 foreach (var s in richTextBox1.Lines)
                 {
                     try
